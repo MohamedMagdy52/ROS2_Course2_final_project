@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/mohamed/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mohamed/ros2_ws2/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws2/install/my_robot_description
+[0.035s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.390s] -- Configuring done (0.4s)
+[0.400s] -- Generating done (0.0s)
+[0.404s] -- Build files have been written to: /home/mohamed/ros2_ws2/build/my_robot_description
+[0.414s] Invoked command in '/home/mohamed/ros2_ws2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mohamed/ros2_ws2/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws2/install/my_robot_description
+[0.415s] Invoking command in '/home/mohamed/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/ros2_ws2/build/my_robot_description -- -j7 -l7
+[0.472s] Invoked command in '/home/mohamed/ros2_ws2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/ros2_ws2/build/my_robot_description -- -j7 -l7
+[0.485s] Invoking command in '/home/mohamed/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mohamed/ros2_ws2/build/my_robot_description
+[0.499s] -- Install configuration: ""
+[0.499s] -- Execute custom install script
+[0.499s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[0.501s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[0.501s] -- Symlinking: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gz.xarco
+[0.513s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[0.514s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[0.516s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.516s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.516s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.519s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.519s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.519s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.519s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.520s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.520s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.520s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.520s] -- Symlinking: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/package.dsv
+[0.532s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.532s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.532s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.533s] -- Up-to-date symlink: /home/mohamed/ros2_ws2/install/my_robot_description/share/my_robot_description/package.xml
+[0.545s] Invoked command in '/home/mohamed/ros2_ws2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_final_project/install/final_project:/home/mohamed/ros2_ws/install/my_py_pkg:/home/mohamed/ros2_ws/install/activity_4:/home/mohamed/ros2_ws/install/final_project:/home/mohamed/ros2_ws/install/activity_2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mohamed/ros2_ws2/build/my_robot_description
