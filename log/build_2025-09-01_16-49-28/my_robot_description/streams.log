@@ -1,0 +1,47 @@
+[0.029s] Invoking command in '/home/mohamed/ros2_ws/build/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/ros2_ws/build/my_robot_description -- -j16 -l16
+[0.092s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.905s] Error parsing '/home/mohamed/ros2_ws/src/my_robot_description/package.xml':
+[5.568s] Traceback (most recent call last):
+[5.568s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[5.570s]     root = dom.parseString(data)
+[5.570s]            ^^^^^^^^^^^^^^^^^^^^^
+[5.570s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[5.571s]     return expatbuilder.parseString(string)
+[5.571s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.571s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[5.572s]     return builder.parseString(string)
+[5.572s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.572s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[5.572s]     parser.Parse(string, True)
+[5.573s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 16, column 53
+[5.573s] 
+[5.573s] During handling of the above exception, another exception occurred:
+[5.573s] 
+[5.573s] Traceback (most recent call last):
+[5.574s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.574s]     main()
+[5.574s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.574s]     raise e
+[5.575s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.575s]     package = parse_package_string(
+[5.575s]               ^^^^^^^^^^^^^^^^^^^^^
+[5.575s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[5.575s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[5.576s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/mohamed/ros2_ws/src/my_robot_description/package.xml':
+[5.576s] The manifest contains invalid XML:
+[5.576s] not well-formed (invalid token): line 16, column 53
+[5.679s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.680s]   execute_process(/usr/bin/python3
+[5.680s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.680s]   /home/mohamed/ros2_ws/src/my_robot_description/package.xml
+[5.681s]   /home/mohamed/ros2_ws/build/my_robot_description/ament_cmake_core/package.cmake)
+[5.681s]   returned error code 1
+[5.681s] Call Stack (most recent call first):
+[5.681s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.682s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[5.682s]   CMakeLists.txt:16 (ament_package)
+[5.682s] 
+[5.682s] [0m
+[5.682s] -- Configuring incomplete, errors occurred!
+[5.687s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[5.691s] Invoked command in '/home/mohamed/ros2_ws/build/my_robot_description' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/ros2_ws/build/my_robot_description -- -j16 -l16
